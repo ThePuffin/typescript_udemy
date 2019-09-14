@@ -1,0 +1,3 @@
+tsc nomdufichier.ts
+
+tsconfig.json permet de changer la version de es3 à es6
