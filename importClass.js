@@ -1,6 +1,12 @@
 "use strict";
 exports.__esModule = true;
 var modules_1 = require("./modules");
+var modules_2 = require("./modules");
+var mods = require("./modules.multi");
 var abcUse = new modules_1.abc("a", "b", 3);
-console.log(abcUse);
 console.log(abcUse.c);
+console.log(abcUse);
+var cdfUser = new modules_2.abcBis("aa", "bb", 33);
+console.log(cdfUser);
+var cdfUserBis = new mods.abc("aaa", "abb", 333);
+console.log(cdfUserBis);

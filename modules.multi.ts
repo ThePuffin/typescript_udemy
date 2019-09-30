@@ -12,7 +12,7 @@ export class abc {
   }
 }
 
-export class abcBis {
+class abcBis {
   c: string;
   d: string;
   f: number;
@@ -23,3 +23,5 @@ export class abcBis {
     this.f = _f;
   }
 }
+
+export { abcBis as abcBiss };
